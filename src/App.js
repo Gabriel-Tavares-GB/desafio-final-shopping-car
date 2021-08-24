@@ -23,34 +23,34 @@ const BoxOneInfoList = styled.section`
 `;
 
 const BoxCardCars = styled.div`
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
   border: solid #DCDCDC;
   margin-left: 1rem;
-  margin-top: 1rem;
+  margin-top:1rem;
+  
 }
   
-  .titleBoxInfo{
-    display:flex;
-    justify-content: space-between;
-background-color: #DCDCDC;
+.titleBoxInfo{
+  display:flex;
+  justify-content: space-between;
+  background-color: #DCDCDC;
   }
   
-  .titleBoxInfo:hover {
+.titleBoxInfo:hover {
   background: #00BFFF;
   color: white;
-  border: solid #00BFFF;
+  
 }
 
-  .bttAdd{
-cursor:pointer;
-background: none;
-border: none;
-  
-  `;
+.bttAdd{
+  cursor:pointer;
+  background: none;
+  border: none;
+`;
 
 const Infos = styled.div`
-  width: 15vw;
+  width: 15vw; 
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -61,6 +61,7 @@ const Infos = styled.div`
 
 const BoxTwoShoppingCars = styled.section`
   width: 30vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -75,7 +76,7 @@ const InfoCarrinho = styled.div`
   background-color: #add8e6;
   border: solid;
   margin-top: 1rem;
-  border-radius: 25px 25px 25px 25px;
+  border-radius: 5px 5px 5px 5px;
 
   h2 {
     display: flex;
